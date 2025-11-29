@@ -17,8 +17,6 @@ st.markdown(hide_sidebar_style, unsafe_allow_html=True)
 st.set_page_config(page_title="Support Dashboard",
                    page_icon="🛠️", layout="centered")
 
-# SQL Server connection
-
 
 def get_connection():
     return pyodbc.connect(
